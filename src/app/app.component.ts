@@ -30,13 +30,13 @@ export class AppComponent implements OnInit{
         items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
-        items: 3
+        items: 1
       },
       940: {
-        items: 4
+        items: 1
       }
     },
     nav: true
@@ -47,10 +47,10 @@ export class AppComponent implements OnInit{
   slidesStore: any[];
   constructor() {
     this.slidesStore = [{
-      img : 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg'
+      img : './assets/img/testimonial-1.png'
     },
     {
-      img : 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg'
+      img : './assets/img/testimonial-1.png'
     }]
   }
 
